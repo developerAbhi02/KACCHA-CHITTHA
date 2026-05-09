@@ -33,12 +33,12 @@ export default function Hero() {
           We are seeking intellectuals, auditors & whistleblowers
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-6 sm:mb-8">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-6 sm:mb-8 w-full sm:w-auto">
           <a
             href="https://forms.gle/oKiqnDA4bSn9MueFA"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary inline-flex justify-center"
+            className="btn-primary inline-flex justify-center w-full sm:w-auto"
           >
             Apply / Nominate
           </a>
@@ -46,7 +46,7 @@ export default function Hero() {
             href="https://wa.me/918957536528?text=Hello%20curious%20thinker%2C%20I%20want%20to%20learn%20more%20about%20your%20initiative.%20Please%20send%20me%20details."
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-secondary inline-flex justify-center"
+            className="btn-secondary inline-flex justify-center w-full sm:w-auto"
           >
             Learn More
           </a>
