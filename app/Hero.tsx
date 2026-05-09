@@ -6,30 +6,30 @@ import heroImage from '../assets/3.jpeg'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[60vh] sm:min-h-[70vh] md:min-h-screen flex items-center justify-center overflow-hidden pt-16 pb-10 sm:pb-14">
+    <section className="relative min-h-[50vh] sm:min-h-[60vh] md:min-h-[70vh] flex items-center justify-center overflow-hidden pt-14 pb-8 sm:pb-12">
       <Image
         src={heroImage}
         alt="Kachha Chittha Header"
         fill
-        className="absolute inset-0 object-cover object-top sm:object-center opacity-70"
+        className="absolute inset-0 object-cover object-center opacity-70"
         priority
         quality={100}
       />
-      <div className="absolute inset-0 bg-black/40 sm:bg-black/55"></div>
+      <div className="absolute inset-0 bg-black/30 sm:bg-black/50"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-lime/10 to-transparent opacity-40"></div>
       
       <div className="relative z-10 text-center max-w-5xl px-4 md:px-8 animate-fade-in">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-4 leading-tight tracking-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-3 leading-tight tracking-tight">
           <span className="text-gradient text-shadow">KACHHA</span>
           <br className="hidden md:block" />
           <span className="text-white">CHITTHA</span>
         </h1>
         
-        <p className="text-lg sm:text-xl md:text-2xl text-gray-100 mb-3 sm:mb-4 font-bold leading-relaxed">
+        <p className="text-lg sm:text-xl md:text-2xl text-gray-100 mb-2 sm:mb-3 font-bold leading-snug">
           An Intellectual Audit of the Indian Reality
         </p>
         
-        <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto font-medium">
+        <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-5 sm:mb-6 max-w-2xl mx-auto font-medium leading-relaxed">
           We are seeking intellectuals, auditors & whistleblowers
         </p>
         
