@@ -47,7 +47,7 @@ body {
   background-clip: text;
 }
 
-..btn-primary {
+.btn-primary {
   @apply bg-lime text-black font-black py-3 px-8 sm:py-4 sm:px-10 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-lime/50 active:scale-95 text-sm sm:text-base md:text-lg;
 }
 
