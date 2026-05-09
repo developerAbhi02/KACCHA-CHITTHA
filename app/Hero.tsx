@@ -6,12 +6,12 @@ import heroImage from '../assets/3.jpeg'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-16 md:pb-20">
+    <section className="relative min-h-[75vh] sm:min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-12 sm:pb-16">
       <Image
         src={heroImage}
         alt="Kachha Chittha Header"
         fill
-        className="absolute inset-0 object-cover opacity-70"
+        className="absolute inset-0 object-cover object-top sm:object-center opacity-70"
         priority
         quality={100}
       />
@@ -19,21 +19,21 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-lime/10 to-transparent opacity-40"></div>
       
       <div className="relative z-10 text-center max-w-5xl px-4 md:px-8 animate-fade-in">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-6 leading-tight tracking-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-5 leading-tight tracking-tight">
           <span className="text-gradient text-shadow">KACHHA</span>
           <br className="hidden md:block" />
           <span className="text-white">CHITTHA</span>
         </h1>
         
-        <p className="text-2xl md:text-3xl text-gray-100 mb-4 font-bold leading-relaxed">
+        <p className="text-xl sm:text-2xl md:text-3xl text-gray-100 mb-3 sm:mb-4 font-bold leading-relaxed">
           An Intellectual Audit of the Indian Reality
         </p>
         
-        <p className="text-base md:text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-medium">
+        <p className="text-sm sm:text-base md:text-xl text-gray-300 mb-8 sm:mb-10 max-w-2xl mx-auto font-medium">
           We are seeking intellectuals, auditors & whistleblowers
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-6 sm:mb-8">
           <a
             href="https://forms.gle/oKiqnDA4bSn9MueFA"
             target="_blank"

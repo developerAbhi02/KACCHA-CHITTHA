@@ -47,8 +47,8 @@ body {
   background-clip: text;
 }
 
-.btn-primary {
-  @apply bg-lime text-black font-black py-4 px-10 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-lime/50 active:scale-95 text-base md:text-lg;
+..btn-primary {
+  @apply bg-lime text-black font-black py-3 px-8 sm:py-4 sm:px-10 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-lime/50 active:scale-95 text-sm sm:text-base md:text-lg;
 }
 
 .btn-primary:hover {
@@ -56,7 +56,7 @@ body {
 }
 
 .btn-secondary {
-  @apply border-2 border-lime text-lime font-bold py-4 px-10 rounded-lg transition-all duration-300 hover:bg-lime/20 text-base md:text-lg;
+  @apply border-2 border-lime text-lime font-bold py-3 px-8 sm:py-4 sm:px-10 rounded-lg transition-all duration-300 hover:bg-lime/20 text-sm sm:text-base md:text-lg;
 }
 
 .card-dark {
@@ -64,7 +64,7 @@ body {
 }
 
 .section-padding {
-  @apply py-16 px-4 md:py-20 md:px-8 lg:px-16;
+  @apply py-10 px-4 md:py-16 md:px-8 lg:px-16;
 }
 
 h1, h2, h3, h4, h5, h6 {

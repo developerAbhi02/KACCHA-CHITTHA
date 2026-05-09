@@ -22,13 +22,13 @@ export default function ImageGallery() {
   return (
     <section className="section-padding bg-dark-bg border-t border-dark-border">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {images.map((image, index) => (
             <div
               key={index}
-              className="relative overflow-hidden rounded-xl border border-dark-border hover:border-lime/50 transition-all duration-300 hover:shadow-xl hover:shadow-lime/30"
+              className={`${index > 2 ? 'hidden md:block' : ''} relative overflow-hidden rounded-xl border border-dark-border hover:border-lime/50 transition-all duration-300 hover:shadow-xl hover:shadow-lime/30`}
             >
-              <div className="relative w-full h-64 md:h-72">
+              <div className="relative w-full h-56 sm:h-64 md:h-72">
                 <Image
                   src={image}
                   alt={`Gallery image ${index + 1}`}
