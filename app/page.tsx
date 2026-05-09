@@ -12,11 +12,15 @@ export default function Home() {
   return (
     <main className="bg-dark-bg">
       <Hero />
-      <PosterSection />
+      <div className="hidden md:block">
+        <PosterSection />
+      </div>
       <About />
       <IssueGrid />
       <CallForSpeakers />
-      <ImageGallery />
+      <div className="hidden md:block">
+        <ImageGallery />
+      </div>
       <Footer />
     </main>
   )
