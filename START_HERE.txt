@@ -1,0 +1,75 @@
+KACHHA CHITTHA - QUICK START GUIDE
+==================================
+
+✅ PROJECT STATUS: READY TO USE
+
+📋 NEXT STEPS (Follow in Order):
+================================
+
+1️⃣ INSTALL DEPENDENCIES
+   → Double-click: install.bat
+   OR type: npm install
+
+2️⃣ ADD POSTER IMAGE
+   → Create folder: public/
+   → Save your poster as: public/poster.jpg
+
+3️⃣ ADD GOOGLE FORM
+   → Open: app/FormSection.tsx
+   → Find line with: REPLACE_WITH_GOOGLE_FORM_LINK
+   → Replace with your Google Form embed URL
+   Example: https://docs.google.com/forms/d/e/[ID]/viewform?embedded=true
+
+4️⃣ START DEVELOPMENT SERVER
+   → Double-click: dev.bat
+   OR type: npm run dev
+   → Open: http://localhost:3000
+
+✨ THAT'S IT! Your site is live!
+
+📁 PROJECT STRUCTURE:
+====================
+x:\KacchaChittha\
+├── app/                    (All code here)
+│   ├── page.tsx           (Main page)
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── IssueGrid.tsx      (6 issue cards)
+│   ├── FormSection.tsx    (Google Form)
+│   ├── Footer.tsx
+│   └── globals.css        (All styling)
+├── public/                (Add poster.jpg here)
+├── package.json
+├── tailwind.config.ts
+├── README.md
+├── SETUP.md
+└── install.bat            (Double-click to install)
+
+🎨 DESIGN DETAILS:
+=================
+✓ Dark theme (black/charcoal)
+✓ Lime green accents (#A3E635)
+✓ Fully responsive
+✓ 8 sections
+✓ Smooth animations
+✓ High-conversion CTAs
+✓ Production-ready
+
+📞 CONTACT INFO (Already Set Up):
+=================================
+WhatsApp: 8957536528
+Phone: 8957536528
+Email: skus8055@gmail.com
+
+🚀 TO BUILD FOR PRODUCTION:
+===========================
+npm run build
+npm start
+
+Deploy to: Vercel, Netlify, or any Node.js host
+
+❓ QUESTIONS?
+=============
+See: README.md or SETUP.md
+
+✅ READY? Start with Step 1 above!

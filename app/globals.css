@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.3px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A3E635;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ce64a;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #A3E635 0%, #7ff240 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn-primary {
+  @apply bg-lime text-black font-black py-4 px-10 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-lime/50 active:scale-95 text-base md:text-lg;
+}
+
+.btn-primary:hover {
+  @apply bg-yellow-300 scale-105;
+}
+
+.btn-secondary {
+  @apply border-2 border-lime text-lime font-bold py-4 px-10 rounded-lg transition-all duration-300 hover:bg-lime/20 text-base md:text-lg;
+}
+
+.card-dark {
+  @apply bg-dark-card border border-dark-border rounded-lg p-6 transition-all duration-300 hover:border-lime/50;
+}
+
+.section-padding {
+  @apply py-16 px-4 md:py-20 md:px-8 lg:px-16;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.8;
+  font-size: clamp(0.95rem, 2vw, 1.125rem);
+}
+
+strong {
+  font-weight: 700;
+  color: #A3E635;
+}
+
